@@ -1,0 +1,104 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  min-height: 100vh;
+  padding: 10%;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-card {
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 15px;
+}
+
+.dark-title {
+  color: #ffffff;
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.dark-button {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 14px;
+  font-family: 'Roboto';
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.light-card {
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 15px;
+}
+
+.light-title {
+  color: #000000;
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.light-button {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 14px;
+  font-family: 'Roboto';
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media all and (min-width: 768px) {
+  .dark-title {
+    font-size: 50px;
+  }
+
+  .light-title {
+    font-size: 50px;
+  }
+
+  .dark-button {
+    font-size: 18px;
+  }
+
+  .light-button {
+    font-size: 18px;
+  }
+}
